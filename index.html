@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Department of Commerce | Sri Venkateswara College</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">Sri Venkateswara College, University of Delhi | Email: <a href="mailto:commerce.dept@example.com">commerce.dept@example.com</a></div>
+
+<!-- ===== Navigation bar with drop-down menus ===== -->
+<nav id="navbar" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a class="brand" href="#home">Department of Commerce</a>
+    <input type="checkbox" id="menu-toggle" aria-label="Toggle menu">
+    <label class="menu-icon" for="menu-toggle">&#9776;</label>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Department</a></li>
+      <li class="has-sub"><a href="#faculty">Faculty</a>
+        <ul class="dropdown">
+          <li><a href="#faculty">Faculty Members</a></li>
+          <li><a href="#faculty-roles">Roles &amp; Designations</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#courses">Courses</a>
+        <ul class="dropdown">
+          <li><a href="#courses">B.Com Programme</a></li>
+          <li><a href="#subjects">Subjects Offered</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#activities">Activities</a>
+        <ul class="dropdown">
+          <li><a href="#seminars">Seminars</a></li>
+          <li><a href="#workshops">Workshops</a></li>
+          <li><a href="#events">Events</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== Home ===== -->
+<header id="home">
+  <div class="hero">
+    <div>
+      <h1>Department of Commerce</h1>
+      <p class="college">Sri Venkateswara College, University of Delhi</p>
+      <p>The Department of Commerce prepares students for careers in accounting, finance, marketing and business management. Through classroom teaching, seminars, workshops and student-led societies, we build both subject knowledge and practical skills.</p>
+      <a class="btn" href="#courses">Explore Courses</a>
+      <a class="btn outline" href="#contact">Contact Us</a>
+    </div>
+    <img alt="Department of Commerce banner" width="420" height="300"
+      src="images/banner.svg">
+  </div>
+</header>
+
+<main>
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <h2>About the Department</h2>
+      <p>The department offers the B.Com Programme, which combines core commerce subjects with skill-based and elective papers. Students learn accounting, business law, finance, marketing and management, and apply them through presentations, case studies and society events.</p>
+      <div class="grid-3">
+        <div class="card"><h3>Vision</h3><p>To develop ethical, skilled and confident commerce graduates ready for industry and higher studies.</p></div>
+        <div class="card"><h3>Mission</h3><ul><li>Strong conceptual teaching</li><li>Practical, skill-based learning</li><li>Industry and community exposure</li></ul></div>
+        <div class="card"><h3>Highlights</h3><ul><li>Experienced faculty</li><li>Regular seminars and workshops</li><li>Active student societies</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Faculty ===== -->
+  <section id="faculty" class="section">
+    <div class="wrap">
+      <h2>Faculty</h2>
+      <p>Our faculty members guide students through teaching, mentoring and academic activities.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Name</th><th>Designation</th><th>Specialisation</th><th>Email</th></tr></thead>
+          <tbody>
+            <tr><td>Dr. Faculty Name 1</td><td>Professor &amp; Head of Department</td><td>Accounting &amp; Finance</td><td><a href="mailto:faculty1@example.com">faculty1@example.com</a></td></tr>
+            <tr><td>Dr. Faculty Name 2</td><td>Associate Professor</td><td>Marketing</td><td><a href="mailto:faculty2@example.com">faculty2@example.com</a></td></tr>
+            <tr><td>Ms. Faculty Name 3</td><td>Assistant Professor</td><td>Business Law</td><td><a href="mailto:faculty3@example.com">faculty3@example.com</a></td></tr>
+            <tr><td>Mr. Faculty Name 4</td><td>Assistant Professor</td><td>Business Management</td><td><a href="mailto:faculty4@example.com">faculty4@example.com</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3 id="faculty-roles">Roles &amp; Designations</h3>
+      <ul>
+        <li><strong>Professor:</strong> leads research, teaching and department planning.</li>
+        <li><strong>Associate Professor:</strong> teaches core papers and supervises academic activities.</li>
+        <li><strong>Assistant Professor:</strong> teaches, mentors students and coordinates events.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Courses ===== -->
+  <section id="courses" class="section">
+    <div class="wrap">
+      <h2>Courses Offered</h2>
+      <p>The department offers the <strong>B.Com Programme</strong>, a three-year undergraduate course (2025–2028 batch onwards).</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Course</th><th>Duration</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>B.Com Programme</td><td>3 years (6 semesters)</td><td>Undergraduate</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3 id="subjects">Subjects Offered</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Year</th><th>Sample Subjects</th></tr></thead>
+          <tbody>
+            <tr><td>First Year</td><td>Financial Accounting, Business Organisation, Business Mathematics</td></tr>
+            <tr><td>Second Year</td><td>Corporate Accounting, Business Law, Marketing, Income Tax Law</td></tr>
+            <tr><td>Third Year</td><td>Auditing, Cost Accounting, Financial Management, Electives</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Activities ===== -->
+  <section id="activities" class="section">
+    <div class="wrap">
+      <h2>Academic Activities</h2>
+      <div class="grid-3">
+        <div class="card" id="seminars">
+          <h3>Seminars</h3>
+          <ul><li>Career guidance in finance</li><li>Digital marketing trends</li><li>Entrepreneurship talks</li></ul>
+        </div>
+        <div class="card" id="workshops">
+          <h3>Workshops</h3>
+          <ul><li>Microsoft Excel for commerce</li><li>Social media and content creation</li><li>Resume and interview skills</li></ul>
+        </div>
+        <div class="card" id="events">
+          <h3>Events</h3>
+          <ul><li>Annual college fest</li><li>Business quiz and case-study contests</li><li>Society-led awareness campaigns</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <div class="contact-box">
+        <p><strong>Department of Commerce</strong><br>Sri Venkateswara College, University of Delhi<br>Benito Juarez Marg, Dhaula Kuan, New Delhi</p>
+        <p>Email: <a href="mailto:commerce.dept@example.com">commerce.dept@example.com</a></p>
+        <p>Website: <a href="https://www.svc.ac.in" target="_blank" rel="noopener">www.svc.ac.in</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Department of Commerce, Sri Venkateswara College. <a href="#home">Back to top</a></p>
+</footer>
+
+</body>
+</html>
